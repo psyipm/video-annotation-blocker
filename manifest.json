@@ -1,0 +1,16 @@
+{
+ "name": "youtube video annotation blocker",
+ "description": "Hide annoying annotations",
+ "version": "0.0.1",
+ "permissions": [
+   "activeTab"
+ ],
+ "background": {
+   "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Hide annotations"
+  },
+  "manifest_version": 2
+}
